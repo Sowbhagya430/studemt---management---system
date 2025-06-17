@@ -1,7 +1,6 @@
 services:
   - type: web
-    name: student-management-app
+    name: student-management-system
     env: python
     buildCommand: ""
-    startCommand: "python app.py"
-    plan: free
+    startCommand: "python student_management_web/app.py"
